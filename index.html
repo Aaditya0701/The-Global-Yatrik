@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Global Yatrik</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="images/1728656380488.png">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- wow js -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <!-- owl crouse css file  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/fakeLoader.min.css">
+    <!-- scroling aos.css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="wow fadeInDown" data-wow-duration="3s">
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><img src="images/resize-17286732961258527137logo.jpg"></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <!-- <a href="#book">book</a> -->
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">Team</a>
+            <!-- <a href="#review">review</a> -->
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons" style="display: none;">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content wow fadeInUp" data-wow-duration="4s">
+            <h3>Bright your future with <span>travels</span></h3>
+            <p>dicover new places with us, adventure awaits</p>
+            <a href="#packages" class="btn">Explore Now !</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- book section starts  -->
+
+    <!-- <section class="book wow fadeInUp" data-wow-duration="4s" id="book">
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image " data-aos="fade-right" data-aos="fade-right" data-aos-offset="10"
+                data-aos-duration="500">
+                <img src="images/book-img.svg" alt="">
+            </div>
+
+            <form action="" data-aos="fade-up" data-aos-offset="40" data-aos-offset="10" data-aos-duration="600">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn btn-submit" value="book now">
+            </form>
+
+        </div>
+
+    </section> -->
+
+    <!-- book section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading wow fadeIn">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container owl-carousel first_carousel">
+
+            <div class="box wow fadeInUp" data-wow-duration="6s">
+                <a href="images/tgy-raigad.jpg" data-lightbox="image-1" data-title="Raigad Fort Trek"><img
+                        src="images/tgy-raigad.jpg" alt="image"></a>
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> raigaj fort trek </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <!-- <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div> -->
+                    <div class="price"> ₹1,100 <span></span> </div>
+                    <a href="https://drive.google.com/file/d/14uHviZeiucTIRdqjHQW27PdZKG0SEt3O/view?usp=sharing"
+                        class="btn" target="_blank">itirnary</a>
+                </div>
+            </div>
+
+            <div class="box wow fadeInUp" data-wow-duration="6s">
+                <a href="images/tgy-goa.png" data-lightbox="image-1" data-title="Goa"><img src="images/tgy-goa.png"
+                        alt="image"></a>
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> goa </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="price"> ₹13,499 <span></span> </div>
+                    <a href="https://drive.google.com/file/d/14aseDR-doWIMDUqNuwEpyMQj905NmUF7/view?usp=sharing"
+                        class="btn" target="_blank">itirnary</a>
+                </div>
+            </div>
+
+            <div class="box wow fadeInUp" data-wow-duration="6s">
+                <a href="images/tgy-kerala.jpg" data-lightbox="image-3" data-title="Kerala"><img
+                        src="images/tgy-kerala.jpg" alt="image"></a>
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> kerala </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="price"> ₹13,999 <span></span> </div>
+                    <a href="https://drive.google.com/file/d/14bfD07D_HiHroghM14i5JmP2MHt3UErr/view?usp=sharing"
+                        class="btn" target="_blank">itirnary</a>
+                </div>
+            </div>
+
+            <div class="box wow fadeInUp" data-wow-duration="6s">
+                <a href="images/tgy-jaipur.jpg" data-lightbox="image-4" data-title="Jaipur"><img
+                        src="images/tgy-jaipur.jpg" alt="image"></a>
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> jaipur </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="price"> ₹6,999 <span></span> </div>
+                    <a href="https://drive.google.com/file/d/15F0_vrg8Qsn-dDQq6_w5MemCpINhOxcC/view?usp=sharing"
+                        class="btn" target="_blank">itirnary</a>
+                </div>
+            </div>
+
+            <!-- <div class="box wow fadeInUp" data-wow-duration="6s">
+                <a href="images/tgy-shaktipeeth.png" data-lightbox="image-4" data-title="Shaktipeeth"><img
+                        src="images/tgy-shaktipeeth.png" alt="image"></a>
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> shaktipeeth </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="price"> ₹13,999 <span></span> </div>
+                    <a href="https://drive.google.com/file/d/1TM8ecfQmftrPeRBqnPzO1KKqf6Q_eInu/view?usp=sharing"
+                        class="btn" target="_blank">itirnary</a>
+                </div>
+            </div> -->
+
+        </div>
+
+        <!-- section item start  -->
+        <div class="box-container secound_carousel owl-carousel ">
+
+            <div class="box wow fadeInUp" data-wow-duration="6s">
+                <a href="images/tgy-rajasthan2.jpg" data-lightbox="image-3" data-title="Rajasthan 02"><img
+                        src="images/tgy-rajasthan2.jpg" alt="image"></a>
+                <div class="content">
+                    <h3>Rajasthan 02 <i class="fas fa-map-marker-alt"></i></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="price"> ₹15,999 <span></span> </div>
+                    <a href="https://drive.google.com/file/d/14oIulWyxs7onqaeV95528MPRqPC0DQ1-/view?usp=sharing"
+                        class="btn" target="_blank">itirnary</a>
+                </div>
+            </div>
+
+            <div class="box wow fadeInUp" data-wow-duration="6s">
+                <a href="images/tgy-rajasthan1.jpg" data-lightbox="image-1" data-title="Rajasthan 01"><img
+                        src="images/tgy-rajasthan1.jpg" alt="image"></a>
+                <div class="content">
+                    <h3>Rajasthan 01 <i class="fas fa-map-marker-alt"></i></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="price"> ₹15,999 <span></span> </div>
+                    <a href="https://drive.google.com/file/d/14tn8qRAxpjysJ8kN7xF3zdfFg7FuPQgl/view?usp=sharing"
+                        class="btn" target="_blank">itirnary</a>
+                </div>
+            </div>
+
+            <div class="box wow fadeInUp" data-wow-duration="6s">
+                <a href="images/tgy-shimla.jpg" data-lightbox="image-4" data-title="Shimla"><img
+                        src="images/tgy-shimla.jpg" alt="image"></a>
+                <div class="content">
+                    <h3>shimla <i class="fas fa-map-marker-alt"></i></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="price"> ₹12,999 <span></span> </div>
+                    <a href="https://drive.google.com/file/d/14ikJUOe4ClCseBp5GY_T51E4jg0ApL-z/view?usp=sharing"
+                        class="btn" target="_blank">itirnary</a>
+                </div>
+            </div>
+
+            <div class="box wow fadeInUp" data-wow-duration="6s">
+                <a href="images/tgy-spiti.jpg" data-lightbox="image-4" data-title="Spiti Valley"><img
+                        src="images/tgy-spiti.jpg" alt="image"></a>
+                <div class="content">
+                    <h3>spiti valley <i class="fas fa-map-marker-alt"></i></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="price"> ₹17,999 <span></span> </div>
+                    <a href="https://drive.google.com/file/d/156qwYu0zkSfl72tMni-FbXwQuFdho1qn/view?usp=sharing"
+                        class="btn" target="_blank">itirnary</a>
+                </div>
+            </div>
+
+            <div class="box wow fadeInUp" data-wow-duration="6s">
+                <a href="images/tgy-uttarakhand.png" data-lightbox="image-4" data-title="Uttarakhand"><img
+                        src="images/tgy-uttarakhand.png" alt="image"></a>
+                <div class="content">
+                    <h3>uttarakhand <i class="fas fa-map-marker-alt"></i> </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="price"> ₹16,999 <span></span> </div>
+                    <a href="https://drive.google.com/file/d/14_ayv5oNO-2u1v5JCdpiA6rYLDNzsjbi/view?usp=sharing"
+                        class="btn" target="_blank">itirnary</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading wow fadeIn">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box wow fadeInUp" data-wow-duration="4s">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Discover comfort and style with our handpicked, budget-friendly hotels that ensure quality without
+                    breaking
+                    the bank. At The Global Yatrik, we offer the best deals so you can enjoy your journey without
+                    worrying about costs.</p>
+            </div>
+            <div class="box wow fadeInUp" data-wow-duration="4s">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Savor the flavors of your journey with curated food and drink experiences, from local delicacies to
+                    international cuisines. The Global Yatrik guides you to the best dining spots, ensuring
+                    unforgettable tastes along the way</p>
+            </div>
+            <div class="box wow fadeInUp" data-wow-duration="4s">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>Your safety is our priority! Stay informed with The Global Yatrik's essential travel tips and
+                    safety guide, designed to ensure a secure, worry-free journey. Travel smart and confidently with our
+                    expert advice, giving you peace of mind wherever your adventure takes you.</p>
+            </div>
+            <div class="box wow fadeInUp" data-wow-duration="4s">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Travel smart with The Global Yatrik! Find affordable hotel stays across the globe that offer great
+                    value
+                    without compromising on quality. Your dream destinations, now within reach. Book budget-friendly
+                    hotels around the world with The Global Yatrik and make every trip unforgettable.</p>
+            </div>
+            <div class="box wow fadeInUp" data-wow-duration="4s">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Experience the thrill of exploration without the wait! With TGY, your journey starts the moment you
+                    book.
+                    Enjoy swift, seamless travel designed for adventurers—discover new horizons with our fast-paced
+                    tours and maximize your travel time with hassle-free itineraries. Adventure awaits—let's get you
+                    there</p>
+            </div>
+            <div class="box wow fadeInUp" data-wow-duration="4s">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Embark on thrilling adventures that ignite your wanderlust with TGY! From breathtaking hikes to
+                    exhilarating
+                    water sports, we craft unforgettable experiences for every adventurer. Discover the world through an
+                    adventurous lens and enjoy adrenaline-pumping activities that create lifelong memories. Adventure
+                    awaits around every corner—join us to explore hidden gems and unleash your inner explorer!</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading wow fadeIn">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box wow fadeInUp" data-wow-duration="2s">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box wow fadeInUp" data-wow-duration="2s">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box wow fadeInUp" data-wow-duration="2s">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box wow fadeInUp" data-wow-duration="2s">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box wow fadeInUp" data-wow-duration="2s">
+                <img src="images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box wow fadeInUp" data-wow-duration="2s">
+                <img src="images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box wow fadeInUp" data-wow-duration="2s">
+                <img src="images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box wow fadeInUp" data-wow-duration="2s">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box wow fadeInUp" data-wow-duration="2s">
+                <img src="images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>t</span>
+            <span>g</span>
+            <span>y</span>
+            <span>-</span>
+            <span>p</span>
+            <span>i</span>
+            <span>l</span>
+            <span>l</span>
+            <span>a</span>
+            <span>r</span>
+            <span>s</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic1.jpg" alt="">
+                        <h3>Director, Lalant V. S.</h3>
+                        <p>Director of a prominent tours and travels company. With an MBA in Marketing,
+                            they bring a wealth of expertise in strategic branding and customer engagement.
+                            Passionate about travel, Lalant V. S. is dedicated to creating memorable experiences
+                            for clients while driving the company's growth through innovative marketing strategies
+                            and a customer-centric approach.</p>
+                        <!-- <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic2.jpg" alt="">
+                        <h3>Founder, Aditya Nalawade</h3>
+                        <p>Aditya is a co-founder of Global Yatrik, a leading tours and travels company.
+                            Currently pursuing engineering in Electronics and Telecommunications,
+                            they are focused on leveraging technology to enhance travel experiences.
+                            With a strong passion for innovation, He aims to integrate
+                            advanced communication solutions into the travel industry, making journeys
+                            more seamless and enjoyable for travelers.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic3.jpg" alt="">
+                        <h3>Co-Founder, Ritesh Kakade</h3>
+                        <p>Ritesh is a co-founder of Global Yatrik, a dynamic tours and travels company.
+                            Currently pursuing engineering in AI and machine learning, they are
+                            passionate about integrating innovative technologies into the travel
+                            industry. With a vision to enhance travel experiences through intelligent
+                            solutions, He is dedicated to transforming how people
+                            explore the world, making travel more efficient and personalized for everyone.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic4.jpg" alt="">
+                        <h3>Co-Founder, Mandar Taralkar</h3>
+                        <p>Mandar is a co-founder of Global Yatrik, a dynamic tours and travels company.
+                            Currently pursuing engineering in AI and machine learning, they are passionate
+                            about integrating innovative technologies into the travel industry. With a
+                            vision to enhance travel experiences through intelligent solutions, He is
+                            dedicated to transforming how people explore the world, making travel more
+                            efficient and personalized for everyone.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic5.jpg" alt="">
+                        <h3>Co-Founder, Abhishek Takle</h3>
+                        <p>Abhishek is a co-founder of Global Yatrik, a dynamic tours and travels company.
+                            Currently pursuing engineering in AI and machine learning, they are passionate
+                            about integrating innovative technologies into the travel industry. With a vision
+                            to enhance travel experiences through intelligent solutions, He is dedicated to
+                            transforming how people explore the world, making travel more efficient and personalized for
+                            everyone.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <p class="contactPerson">Lalant V. S. : <i class="fab fa-whatsapp"
+                            style="color: rgb(12, 204, 12); "></i> <a
+                            href="https://api.whatsapp.com/send/?phone=919511845312&text&type=phone_number&app_absent=0"
+                            target="_blank">9511845312</a></p>
+                </div>
+                <div class="inputBox">
+                    <p class="contactPerson">Aditya Nalawade : <i class="fab fa-whatsapp"
+                            style="color: rgb(12, 204, 12); "></i> <a
+                            href="https://api.whatsapp.com/send/?phone=%2B919325449845&text&type=phone_number&app_absent=0"
+                            target="_blank">9325449845</a></p>
+                </div>
+                <p class="cEmail"><a href="mailto:theglobalyatrik@gmail.com"
+                        class="cEmail">theglobalyatrik@gmail.com</a></p>
+                <!-- <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn btn-submit" value="send message"> -->
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- brand section  -->
+    <!-- <section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </section> -->
+
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>At The Global Yatrik, we are a passionate team of young entrepreneurs dedicated to
+                    transforming your travel experiences. Our mission is to curate unforgettable journeys that blend
+                    adventure, culture, and exploration. Whether you're seeking thrilling outdoor activities or serene
+                    escapes, we strive to connect you with the world's hidden gems. Join us as we embark on exciting
+                    adventures, create lasting memories, and inspire your wanderlust!</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#"> pune, india</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#packages">packages</a>
+                <a href="#service">services</a>
+                <a href="#gallery">gallery</a>
+                <a href="#review">tgy-pillars</a>
+                <a href="#contact">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.instagram.com/theglobalyatrik/" target="_blank">instagram</a>
+                <a href="https://www.google.com/search?q=the+global+yatrik&oq=the+global+yatrik&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGD0yBggCEEUYPDIGCAMQLhhA0gEIMzIxNGowajGoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank">Google</a>
+                <a>twitter</a>
+                <a>linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> created by <span><a href="mailto:aadityakamlaskar1211@gmail.com"
+                    class="oEmail">aadityakamlaskar1211@gmail.com</a></span> | all rights reserved ! </h1>
+
+    </section>
+    <!-- top to bottom scrolling  -->
+    <!-- <div id="totopscroller"></div> -->
+    <!-- preloader  -->
+    <div class="fakeLoader"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jaquery cdn  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- swiper-bundle.min.js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <!-- lightbox.js -->
+    <script src="js/lightbox.js"></script>
+    <!-- owl.carousel.min.js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- top to bottom  -->
+    <script src="js/jquery.totop.js"></script>
+    <script src="js/fakeLoader.min.js"></script>
+    <!-- scroling aos js  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script>
+        // owl carousel
+        $('.first_carousel').owlCarousel({
+            autoplay: true,
+            margin: 10,
+            smartSpeed: 800,
+            nav: true,
+            responsiveClass: true,
+
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: false,
+                    loop: true,
+
+                }
+            }
+        })
+
+        // secound carousel 
+        // owl carousel
+        $('.secound_carousel').owlCarousel({
+            autoplay: true,
+            rtl: true,
+            nav: true,
+            margin: 10,
+            responsiveClass: true,
+            smartSpeed: 800,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: true,
+
+                }
+            }
+        })
+
+        // top ot bottom 
+        $(function () {
+            $('#totopscroller').totopscroller({
+                link: 'http://127.0.0.1:5500/index.html#' // show a link button
+            });
+        })
+
+        // wow js 
+        new WOW().init();
+
+        // preloader
+        $.fakeLoader();
+
+        // aos scrolling  
+        AOS.init();
+        //  water Remote Playback
+        $('.water').ripples({
+
+            // Image Url
+            imageUrl: null,
+
+            // The width and height of the WebGL texture to render to. 
+            // The larger this value, the smoother the rendering and the slower the ripples will propagate.
+            resolution: 256,
+
+            // The size (in pixels) of the drop that results by clicking or moving the mouse over the canvas.
+            dropRadius: 20,
+
+            // Basically the amount of refraction caused by a ripple. 
+            // 0 means there is no refraction.
+            perturbance: 0.04,
+
+            // Whether mouse clicks and mouse movement triggers the effect.
+            interactive: true,
+
+            // The crossOrigin attribute to use for the affected image. 
+            crossOrigin: ''
+        });
+
+    </script>
+
+</body>
+
+</html>
